@@ -56,7 +56,7 @@ public class MaxDirectMemory {
                 list.add(buffer);
             }
         } catch (OutOfMemoryError e) {
-            System.err.println("直接内存分配达到限制，发生OutOfMemoryError.");
+            System.err.printf("直接内存分配达到限制，发生OutOfMemoryError:%s%n",e);
         }
         // 再次尝试打印直接内存使用情况
         printDirectMemoryUsage();
