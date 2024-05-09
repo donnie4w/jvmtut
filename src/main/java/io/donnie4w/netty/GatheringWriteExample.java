@@ -1,4 +1,4 @@
-package netty;
+package io.donnie4w.netty;
 
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;

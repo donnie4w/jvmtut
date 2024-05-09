@@ -1,4 +1,4 @@
-package netty;
+package io.donnie4w.netty;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.CompositeByteBuf;
