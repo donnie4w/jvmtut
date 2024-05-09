@@ -19,5 +19,10 @@
             <artifactId>netty-all</artifactId>
             <version>4.1.96.Final</version>
         </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>9.4</version> <!-- 或者选择适用的版本 -->
+        </dependency>
     </dependencies>
 </project>
